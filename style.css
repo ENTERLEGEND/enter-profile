@@ -233,4 +233,30 @@ button:hover{
     100% {background-color:#ff3a4b; left:0px; top:0px;}
   }
 
+ /* Responsive */
+  @media only screen and (max-width:739px){
+    .imgbox{
+        display: none;
+    }
+    li a{
+        display: none;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    button{
+        margin-left: -20%;
+        margin-top: 10%;
+    }
+
+  }
+
+  @media only screen and (min-width: 740px) 
+  and (max-width: 1023px){
+    .imgbox{
+        width: 150%;
+    }
+  }
 
