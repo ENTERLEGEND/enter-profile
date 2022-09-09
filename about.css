@@ -26,7 +26,7 @@ body{
 .container .left{
     width: 35%;
     background: linear-gradient(45deg, #ff3b4a, wheat);
-    padding: 35px 25px;
+    padding: 35px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     text-align: center;
@@ -41,6 +41,7 @@ body{
 img{
     padding-right: 25px;
     border: solid 2px;
+    object-fit: cover;
 }
 
 button{
